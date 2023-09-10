@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="./admin.css"> -->
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="signUp_heading">Add Student</h1>
+        <input class="input" id="name" type="text" placeholder="Enter Student Name">
+        <input class="input" id="fathername" type="text" placeholder="Enter Student Father Name">
+        <input class="input" id="rollNumber" type="number" placeholder="Enter Student Roll Number">
+        <input class="input" id="contact" type="number" placeholder="Enter Student Contact No">
+        <input class="input" id="CNIC" type="number" placeholder="Enter Student CNIC No">
+        <div id="showPic">
+        </div>
+        <label for="picture">+ Upload<input id="picture" class="hidden" type="file" accept="image"></label>
+        <select class="div opt" id="course">
+            <option class="opt" value="">Select Course</option>
+            <option class="opt" value="Web And Mobile">Web & Mobile App Development</option>
+            <option class="opt" value="Graphic Design">Graphic Design</option>
+            <option class="opt" value="RO Plant">Artificial Intelligence</option>
+            <option class="opt" value="Mobile Repairing">Mobile Repairing</option>
+        </select>
+        <select id="sir" class="div opt">
+            <option class="opt" value="">Select Class</option>
+            <option class="opt" value="Sir Ghous">Ms.Hina</option>
+            <option class="opt" value="Sir Haider">Ms. Tayyaba</option>
+            <option class="opt" value="Sir Kashif">Ms.Qurat-ul-Ain</option>
+            <option class="opt" value="Sir Rizwan">Sir Ishaq</option>
+        </select>
+        <button class="add_btn" onclick="sendstudentDAta()">Submit</button>
+        <a href="admin.html"> <button class="goback-button">Go Back</button></a>
+       
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./addStudents.js" type="module"></script>
+</body>
+
+</html>

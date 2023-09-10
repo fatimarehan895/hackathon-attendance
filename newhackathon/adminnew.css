@@ -1,0 +1,49 @@
+
+input.one {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.heading {
+    color: black;
+}
+
+
+th {
+    padding: 10px;
+}
+
+tr {
+    background-color: #f2f2f2;
+}
+
+td {
+    padding: 10px;
+}
+
+
+input.input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.goback-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px; 
+}
+
+.goback-button:hover {
+    background-color: #0056b3;
+}
